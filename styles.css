@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background-color: white;
+    font-family: "Arial", sans-serif;
+    color: red;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.dance-container {
+    margin: 20px auto;
+    width: 200px;
+}
+
+.dance {
+    width: 100%;
+    animation: dance 1s infinite alternate;
+}
+
+@keyframes dance {
+    0% { transform: rotate(-10deg); }
+    100% { transform: rotate(10deg); }
+}
+
+button {
+    background-color: red;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
